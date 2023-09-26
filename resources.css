@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'League Spartan';
+  /* You can choose any name for the font family */
+  src: url('GoudyBookletter1911.otf') format('opentype');
+  /* You can also include other font formats for better browser compatibility:
+     src: url('path-to-your-font/customfont.otf') format('opentype'),
+          url('path-to-your-font/customfont.woff') format('woff'),
+          url('path-to-your-font/customfont.ttf') format('truetype'); */
+}
+
+
+body {
+
+
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+  background-color: pink;
+
+
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar.bg-pink {
+  background-color: pink;
+
+}
+
+
+
+.nav-logo img {
+  width: 100px;
+  height: auto;
+}
+
+main {
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 1.4%;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.learning-recruiting {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  /* Add some spacing between learning and recruiting sections */
+}
+
+
+
+.recruiting {
+  width: 350px;
+  height: 450px;
+  background-color: #DAF7A6;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 20px;
+
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.link-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.links {
+
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+a {
+  color: black;
+}
+
+.recruiting:hover {
+  transform: scale(1.05);
+}
+
+.learning {
+  width: 350px;
+  height: 450px;
+  background-color: #DAF7A6;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+
+}
+
+.learning:hover {
+  transform: scale(1.05);
+}
+
+.orgs {
+  width: 750px;
+  height: 250px;
+  background-color: #DAF7A6;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.orgs:hover {
+  transform: scale(1.05);
+}
+
+.orglist {
+  font-size: 20px;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: #fff; /* Background color */
+  border: none; /* Remove borders */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  color: #333; /* Text color */
+}
+
+/* Style the dropdown items on hover */
+.dropdown-item:hover {
+  background-color: #d5cdcd; /* Background color on hover */
+}
+
+footer {
+
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  color: #DAF7A6;
+}
+
+@media (max-width: 768px) {
+
+  .learning-recruiting {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  .learning {
+  height: 470px;
+  width: 400px;
+  }
+
+  .recruiting {
+    height: 470px;
+    width: 400px;
+    
+  }
+
+  .orgs {
+    width: 575px;
+  }
+  footer {
+    margin-top: 75px;
+  }
+
+}

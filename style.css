@@ -1,0 +1,275 @@
+@font-face {
+  font-family: 'League Spartan';
+  /* You can choose any name for the font family */
+  src: url('GoudyBookletter1911.otf') format('opentype');
+  /* You can also include other font formats for better browser compatibility:
+     src: url('path-to-your-font/customfont.otf') format('opentype'),
+          url('path-to-your-font/customfont.woff') format('woff'),
+          url('path-to-your-font/customfont.ttf') format('truetype'); */
+}
+
+
+.material-symbols-outlined {
+
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+body {
+
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar.bg-pink {
+  background-color: pink;
+
+}
+
+
+
+.navbar-brand img {
+  width: 100px;
+  height: auto;
+}
+
+.eboardpic {
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
+
+
+.join-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DAF7A6;
+  border-radius: 5px;
+  font-weight: bold;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: black;
+}
+
+.btn:hover {
+  color: pink;
+}
+
+
+.hero {
+
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+  min-height: 93vh;
+
+
+}
+
+
+
+.hero h1 {
+  font-size: 36px;
+
+
+
+
+}
+
+.hero p {
+  font-size: 18px;
+
+
+
+
+}
+
+
+#particles-container {
+  position: relative;
+
+
+}
+
+
+#particles-js {
+
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+}
+
+.mission {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DAF7A6;
+  min-height: 80vh;
+
+
+}
+
+.mission h1 {
+
+  padding-top: 5%;
+
+
+
+}
+
+.mission h2 {
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0px 20px;
+}
+
+.mission h4 {
+  text-align: center;
+}
+
+.action {
+
+  display: flex;
+
+  background: pink;
+  flex-direction: column;
+  height: 70vh;
+ 
+
+}
+
+.action h1 {
+  padding-top: 5%;
+  text-align: center;
+}
+
+
+
+.action .column {
+  width: 20px;
+}
+
+.action .chart .column p {
+  font-size: 20px;
+}
+
+.chart {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.column {
+  flex: 1;
+
+  padding: 50px 30px 20px;
+  text-align: center;
+}
+
+ .sugg-button {
+            text-align: center;
+            display: inline-block;
+            width: 300px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #DAF7A6; 
+            color: black;
+            text-decoration: none; 
+            font-weight: bold;
+            transition: background-color 0.3s ease; 
+            margin-top: 2.5%;
+            margin-left: 39%;
+           
+  
+        }
+
+       
+        .sugg-button:hover {
+          color: pink;
+           text-decoration: none; 
+        
+        }
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: #fff;
+  /* Background color */
+  border: none;
+  /* Remove borders */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  color: #333;
+  /* Text color */
+}
+
+/* Style the dropdown items on hover */
+.dropdown-item:hover {
+  background-color: #d5cdcd;
+  /* Background color on hover */
+}
+
+footer {
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Icon Styles */
+.footer-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.footer-icon:hover {
+  color: #DAF7A6;
+}
+
+@media screen and (max-width: 768px) {
+  .join-button {
+    position: absolute;
+    top: 110%;
+
+  }
+
+  .sugg-button{
+    margin-left: 27%;
+  }
+
+  .action .chart .column p {
+    font-size: 14px;
+  }
+
+
+
+}

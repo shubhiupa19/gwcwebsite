@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'League Spartan';
+  /* You can choose any name for the font family */
+  src: url('GoudyBookletter1911.otf') format('opentype');
+  /* You can also include other font formats for better browser compatibility:
+     src: url('path-to-your-font/customfont.otf') format('opentype'),
+          url('path-to-your-font/customfont.woff') format('woff'),
+          url('path-to-your-font/customfont.ttf') format('truetype'); */
+}
+
+body {
+  background-color: pink;
+  text-align: center;
+  font-family: 'League Spartan';
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar.bg-pink {
+  background-color: pink;
+
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 1vh;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+.nav-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack the event containers vertically */
+  align-items: center;
+  /* Horizontally center the event containers */
+  justify-content: center;
+  /* Vertically center the event containers */
+  min-height: 100vh;
+}
+
+
+.event-container {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  margin-bottom: 5vh;
+  border: 2px solid black;
+}
+
+.event-container img {
+  flex: 0 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.event-info {
+  flex: 1;
+  margin-right: 15px;
+}
+
+
+footer {
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Icon Styles */
+.footer-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  color: #DAF7A6;
+}
+
+/* Style for individual past event containers */
+.past-events .event-container {
+  opacity: 0.9;
+  /* Reduce opacity for past events */
+  display: flex;
+  align-items: center;
+  margin: auto;
+  /* Add margin for spacing between event containers */
+  margin-bottom: 5vh;
+  vertical-align: top;
+  /* Align event containers at the top */
+}
+
+/* Style for individual upcoming event containers */
+.upcoming-events .event-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  /* Add margin for spacing between event containers */
+  margin-bottom: 5vh;
+  vertical-align: top;
+  /* Align event containers at the top */
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: #fff;
+  /* Background color */
+  border: none;
+  /* Remove borders */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  color: #333;
+  /* Text color */
+}
+
+/* Style the dropdown items on hover */
+.dropdown-item:hover {
+  background-color: #d5cdcd;
+  /* Background color on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .event-container {
+    width: 500px;
+    height: 350px;
+  }
+
+  .event-container img {
+    width: 200px;
+    height: 250px;
+  }
+}
