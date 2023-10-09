@@ -74,7 +74,7 @@ h1 {
 
 h3 {
   margin-top: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -168,25 +168,34 @@ footer {
 @media (max-width: 768px) {
 
   .learning-recruiting {
-  margin-left: 20px;
-  margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .learning-recruiting li {
+  font-size: 14px;
 }
+  .learning-recruiting h3 {
+    font-size: 20px;
+  }
   .learning {
   height: 470px;
-  width: 400px;
+  width: 190px;
+    margin-right: 0px;
+    
   }
 
   .recruiting {
-    height: 470px;
-    width: 400px;
+  height: 470px;
+  width: 190px;
+    margin-left: 0px;
+
     
   }
 
   .orgs {
-    width: 575px;
+    width: 375px;
   }
-  footer {
-    margin-top: 75px;
-  }
+  
 
 }
