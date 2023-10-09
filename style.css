@@ -259,6 +259,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .eboardpic {
+    width: 350px;
+    height: 250px;
+  }
   .join-button {
     position: absolute;
     top: 95%;
@@ -307,10 +311,14 @@ a {
   }
 
  .action .chart .column h3 {
-  font-size: 25px; /* Adjust as needed */
-  line-height: 0.8; /* Adjust as needed */
+  font-size: 20px; /* Adjust as needed */
+  line-height: 0.6; /* Adjust as needed */
 
  }
+
+  .action .chart .column:first-child {
+    margin-top: -63px; /* Adjust this value based on your needs */
+}
 
    .mission h4 {
      margin: 10px;
