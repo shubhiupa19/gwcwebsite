@@ -155,7 +155,7 @@ footer {
 
 @media (max-width: 767px) {
   .eboard {
-    height: 170vh;
+    height: 180vh;
     background-color: #DAF7A6;
     justify-content: center;
   }
