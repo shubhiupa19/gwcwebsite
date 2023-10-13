@@ -291,7 +291,8 @@ a {
   }
 
   .action .chart .column p {
-    font-size: 14px;
+    font-size: 10px;
+   
   }
 
   .action .chart .column {
@@ -299,26 +300,27 @@ a {
   flex-direction: column; 
   justify-content: center; /* This will vertically center the content */
   align-items: center; 
+ 
+  
+  
   }
 
   .action .chart  {
   width: 100%;
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   }
 
  .action .chart .column h3 {
   font-size: 20px; /* Adjust as needed */
-  line-height: 0.6; /* Adjust as needed */
+  line-height: 1.5; /* Adjust as needed */
 
  }
 
-  .action .chart .column:first-child {
-    margin-top: -63px; /* Adjust this value based on your needs */
-}
+  
+
+
 
    .mission h4 {
      margin: 10px;

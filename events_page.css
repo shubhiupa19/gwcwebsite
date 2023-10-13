@@ -135,14 +135,23 @@ footer {
   /* Background color on hover */
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 767px) {
   .event-container {
-    width: 500px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
   }
 
   .event-container img {
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 150px;
   }
+
+  .event-container h2{
+    font-size: 16px;
+  }
+
+  .event-container p{
+    font-size: 10px;
+  }
+
 }
